@@ -1,0 +1,5 @@
+a=(1,2,3,4)
+b=list(a)
+b.insert(1,100)
+a=tuple(b)
+print(a)
